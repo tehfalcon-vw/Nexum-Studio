@@ -5,7 +5,7 @@
 <h1 align="center">Nexum Studio</h1>
 
 <p align="center">
-  A native macOS calibration, diagnostics, logging, and controller-service workspace for OEM Group vehicles.
+  A native macOS tuning, diagnostics, logging, and quick utility workspace for VAG Group vehicles.
 </p>
 
 ## Download
@@ -14,25 +14,23 @@ Download **Nexum Studio 1.0.0** from the [latest release](https://github.com/teh
 
 - Apple silicon Mac
 - macOS 14 or newer
-- Production build only; no demo is published here
-- SHA-256: `aa149843e860e839ecc93ee2a2a7dc696a50099b6c42c9d8d05e11c608649b3c`
 
-The application is ad-hoc signed for integrity but is not Apple-notarized. On first launch, macOS may require an explicit **Open** from Finder's shortcut menu.
+The application is ad-hoc signed for integrity but is not Apple-notarized. On first launch, macOS may require an explicit **Open** from Finder's shortcut menu, or **Open Anyway** in System Settings -> Privacy & Security
 
 ## Functions
 
 - Open and edit BIN, ORI, and MSTRO ECU files
-- Contained definition library for ME7, MED9/MED9.5, ME/MED17, EDC15/16/17, Simos 18, and supported transmission controllers
+- Contained definition library for ME7, MED9/MED9.5, ME/MED17, EDC15/16/17, Simos 18, and DSG Transmissions.
 - Scaled 1D/2D tables, synchronized secondary addresses, interactive 3D surfaces, compare, undo/redo, and change review
 - ECU-aware calibration wizards and patch workflows, including user-supplied Simos BTP patches
-- Gasoline- and diesel-aware logging with multi-parameter graphing, playback, per-cylinder knock where supported, and CSV export
+- Gasoline and diesel aware logging with multi-parameter graphing, playback, per-cylinder knock where supported, and CSV export
 - Datalog-guided **Optimize** analysis for an existing calibration
 - Checksum inspection and repair for supported engine and transmission controller families
 - Guided controller identification, reading, and flashing with exact profile and interface capability checks
 - Gateway module discovery and module diagnostics: DTCs, identification, measuring values, diagnostic sessions, security access, coding/long coding, adaptations, basic settings, output tests, factory file flashing, and dataset loading where supported
 - Vehicle Backup and identity-matched Restore Vehicle workflows
 - Guided MQB DSG Basic Settings and wastegate relearn
-- MSTRO and STT conversion tools and Simos unlock-file preparation
+- MSTRO and STT decrypt tools and Simos unlock-file preparation
 
 ## VCI support
 
@@ -51,7 +49,7 @@ Availability is automatically limited by the protocol and controller selected.
 
 Nexum Studio can change safety-critical controller data. Incorrect tuning, flashing, coding, adaptations, basic settings, or output tests can damage hardware, prevent a vehicle from starting, or change vehicle behavior and functionality. Use stable battery support, confirm the exact controller and software identity, keep recoverable originals, and follow the vehicle manufacturer's workshop procedures. You are responsible for every operation performed with the application.
 
-This application is not affiliated with, endorsed by, or associated with Volkswagen AG or its subsidiaries.
+*This application is not affiliated with, endorsed by, or associated with Volkswagen AG or its subsidiaries.*
 
 ## Open-source material and credits
 
@@ -71,8 +69,9 @@ Nexum Studio includes or derives portions of its contained support from the foll
 - libusb — LGPL-2.1-or-later
 - Brotli — MIT
 
-Third-party project and product names are used only for compatibility and attribution.
-
 ## License
 
-Nexum Studio itself is proprietary software. Distribution of the production binary does not grant a license to copy, modify, reverse engineer, redistribute, sublicense, or sell the application except where applicable law or a bundled third-party license expressly requires otherwise.
+Nexum Studio is forever free. Any sale, unauthorized commercial distribution, or non-credited claiming is strictly prohibited. 
+Long Live RIGHT TO REPAIR and the control of the things you own!
+
+*This application is not affiliated with, endorsed by, or associated with Volkswagen AG or its subsidiaries.*

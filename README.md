@@ -11,6 +11,7 @@
 ## Download
 
 Download **Nexum Studio** from the [latest release](https://github.com/tehfalcon-vw/Nexum-Studio/releases/latest).
+Submit Bugs/Issues [Here](https://github.com/tehfalcon-vw/Nexum-Studio/issues/new?template=bug_report.md)
 
 - Apple silicon Mac
 - macOS 14 or newer

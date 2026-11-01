@@ -24,10 +24,10 @@ The application is ad-hoc signed for integrity but is not Apple-notarized. On fi
 - Scaled 1D/2D tables, synchronized secondary addresses, interactive 3D surfaces, compare, undo/redo, and change review
 - ECU-aware calibration wizards and patch workflows, including user-supplied Simos BTP patches
 - Gasoline and diesel aware logging with multi-parameter graphing, playback, per-cylinder knock where supported, and CSV export
-- Datalog-guided **Optimize** analysis for an existing calibration
+- Datalog-guided **Optimize** automatically optimizes the loaded tune for safety and smoothness.
 - Checksum inspection and repair for supported engine and transmission controller families
 - Guided controller identification, reading, and flashing with exact profile and interface capability checks
-- Gateway module discovery and module diagnostics: DTCs, identification, measuring values, diagnostic sessions, security access, coding/long coding, adaptations, basic settings, output tests, factory file flashing, and dataset loading where supported
+- Gateway module discovery and module diagnostics: DTCs, identification, measuring values, diagnostic sessions, security access, coding/long coding, adaptations, basic settings, output tests, factory firmware flashing, and dataset loading where supported
 - Vehicle Backup and identity-matched Restore Vehicle workflows
 - Guided MQB DSG Basic Settings and wastegate relearn
 - MSTRO and STT decrypt tools and Simos unlock-file preparation

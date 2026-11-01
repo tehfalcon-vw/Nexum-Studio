@@ -20,7 +20,7 @@ The application is ad-hoc signed for integrity but is not Apple-notarized. On fi
 ## Functions
 
 - Open and edit BIN, ORI, and MSTRO ECU files
-- Contained definition library for ME7, MED9/MED9.5, ME/MED17, EDC15/16/17, Simos 18, and DSG Transmissions.
+- Contained definition library for ME7/7.5, MED9/9.1/9.5, ME/MED17/17.5/17.5.6, EDC15/16/17, Simos 18, and DSG Transmissions.
 - Scaled 1D/2D tables, synchronized secondary addresses, interactive 3D surfaces, compare, undo/redo, and change review
 - ECU-aware calibration wizards and patch workflows, including user-supplied Simos BTP patches
 - Gasoline and diesel aware logging with multi-parameter graphing, playback, per-cylinder knock where supported, and CSV export

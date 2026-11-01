@@ -34,6 +34,21 @@ The application is ad-hoc signed for integrity but is not Apple-notarized. On fi
 - Guided MQB DSG Basic Settings and wastegate relearn
 - MSTRO and STT decrypt tools and Simos unlock-file preparation
 
+## Work in Progress
+
+- ECU Tune Simulation
+- Dataset Editor
+- MQB Light Configuration Utility
+- MQB Drive Profile Editor
+- MQB Amplifier Editor
+- MQB 2Q0 Camera Patcher
+- MQB Gateway Patcher
+- MQB & PQ Radar Patcher
+- PQ EPS Patcher
+- PQ TRW450 Patcher
+- PQ BCM EEPROM Editor
+- VAS5054A VCI Support
+
 ## VCI support
 
 Availability is automatically limited by the protocol and controller selected.

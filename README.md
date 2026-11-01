@@ -10,7 +10,7 @@
 
 ## Download
 
-Download **Nexum Studio 1.0.0** from the [latest release](https://github.com/tehfalcon-vw/Nexum-Studio/releases/latest).
+Download **Nexum Studio** from the [latest release](https://github.com/tehfalcon-vw/Nexum-Studio/releases/latest).
 
 - Apple silicon Mac
 - macOS 14 or newer
@@ -41,8 +41,8 @@ Availability is automatically limited by the protocol and controller selected.
 | Tactrix OpenPort 2.0 | Diagnostics, logging, identification, and supported CAN, TP2.0, ISO-TP/UDS, and K-line flashing |
 | Scanmatik 2 Pro | Diagnostics, logging, identification, and supported CAN, TP2.0, and ISO-TP/UDS flashing; no K-line |
 | ESP32 / Macchina A0 CAN Bridge, USB or BLE | Diagnostics, logging, identification, guided routines, and supported ISO-TP/UDS flashing; no raw-CAN TP2.0 or K-line |
-| Experimental VNCI 6154A | Supported 500 kbit request-level ISO-TP/UDS diagnostics, logging, routines, and flashing |
-| Experimental FTDI Cable | Cable discovery and cable-only handshake test; live ECU logging and flashing are not exposed |
+| VNCI 6154A (Experimental) | Supported 500 kbit request-level ISO-TP/UDS diagnostics, logging, routines, and flashing |
+| FTDI Cable (Experimental) | Cable discovery and cable-only handshake test; live ECU logging and flashing are not exposed |
 | Common BLE OBD adapters | Generic OBD diagnostics only |
 
 ## Safety

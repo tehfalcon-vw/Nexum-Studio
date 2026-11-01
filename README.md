@@ -71,7 +71,7 @@ Nexum Studio includes or derives portions of its contained support from the foll
 
 ## License
 
-Nexum Studio is forever free. Any sale, unauthorized commercial distribution, or non-credited claiming is strictly prohibited. 
+Nexum Studio is forever free. Any sale, commercial distribution, or non-credited claiming is strictly prohibited. 
 Long Live RIGHT TO REPAIR and the control of the things you own!
 
 *This application is not affiliated with, endorsed by, or associated with Volkswagen AG or its subsidiaries.*

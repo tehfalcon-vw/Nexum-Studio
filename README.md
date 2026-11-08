@@ -5,7 +5,7 @@
 <h1 align="center">Nexum Studio</h1>
 
 <p align="center">
-  A native macOS tuning, diagnostics, logging, and quick utility workspace for VAG Group vehicles.
+  A tuning, diagnostics, logging, and quick utility workspace for VAG Group vehicles on macOS and Windows.
 </p>
 
 ## Download
@@ -14,10 +14,17 @@ Download **Nexum Studio** from the [latest release](https://github.com/tehfalcon
 
 Submit Bugs/Issues [Here](https://github.com/tehfalcon-vw/Nexum-Studio/issues/new?template=bug_report.md).
 
-- Apple silicon Mac
-- macOS 14 or newer
+| Platform | Download | Requirements |
+| --- | --- | --- |
+| macOS | `Nexum-Studio-macOS-arm64-v1.1.0.zip` | Apple silicon, macOS 14 or newer |
+| Windows x64 | `Nexum-Studio-Windows-x64-v1.1.0.zip` | Windows 11 x64, Intel or AMD processor |
+| Windows ARM64 | `Nexum-Studio-Windows-arm64-v1.1.0.zip` | Windows 11 ARM64 |
 
-The application is ad-hoc signed for integrity but is not Apple-notarized. On first launch, macOS may require an explicit **Open** from Finder's shortcut menu, or **Open Anyway** in System Settings -> Privacy & Security
+**macOS:** Extract the ZIP and open **Nexum Studio.app**. The application is ad-hoc signed for integrity but is not Apple-notarized. On first launch, macOS may require an explicit **Open** from Finder's shortcut menu, or **Open Anyway** in System Settings → Privacy & Security.
+
+**Windows:** Extract the entire ZIP to a writable folder, then run **NexumStudio.exe**. Keep the `Backend`, `Resources`, license files, and runtime files together; do not run from inside the ZIP or copy only the EXE. The .NET runtime is included. Install the interface manufacturer's Windows drivers separately before connecting a vehicle interface. The application does not include vendor driver installers or driver DLLs.
+
+SHA-256 checksums are included with each release. Windows and macOS share the same editing, logging, diagnostics, utility, and programming workflows; interface drivers are platform-specific. Software and simulated tests do not establish physical vehicle or recovery qualification.
 
 ## Functions
 
@@ -53,13 +60,21 @@ The application is ad-hoc signed for integrity but is not Apple-notarized. On fi
 
 Availability is automatically limited by the protocol and controller selected.
 
+Windows driver requirements:
+
+- **SM2 driver required** for Scanmatik interfaces.
+- **OpenPort 2.0 driver required** for Tactrix OpenPort 2.0.
+- **FTDI driver required** for the supported FTDI cable.
+
+Drivers are installed separately and are not included with Nexum Studio.
+
 | Interface | Supported use |
 | --- | --- |
 | Tactrix OpenPort 2.0 | Diagnostics, logging, identification, and supported CAN, TP2.0, ISO-TP/UDS, and K-line flashing |
 | Scanmatik 2 Pro | Diagnostics, logging, identification, and supported CAN, TP2.0, and ISO-TP/UDS flashing; no K-line |
 | ESP32 / Macchina A0 CAN Bridge, USB or BLE | Diagnostics, logging, identification, guided routines, and supported ISO-TP/UDS flashing; no raw-CAN TP2.0 or K-line |
-| VNCI 6154A (Experimental) | Supported 500 kbit request-level ISO-TP/UDS diagnostics, logging, routines, and flashing |
-| FTDI Cable (Experimental) | Cable discovery and cable-only handshake test; live ECU logging and flashing are not exposed |
+| VNCI 6154A (macOS, experimental) | Supported 500 kbit request-level ISO-TP/UDS diagnostics, logging, routines, and flashing |
+| Exact supported FTDI cable | CAN diagnostics, logging, and supported programming through the cable's protocols; K-line identification/programming for supported controllers. Unrelated FTDI cables are not selected. |
 | Common BLE OBD adapters | Generic OBD diagnostics only |
 
 ## Safety
@@ -70,7 +85,7 @@ Nexum Studio can change safety-critical controller data. Incorrect tuning, flash
 
 ## Open-source material and credits
 
-Nexum Studio includes or derives portions of its contained support from the following projects. Complete applicable license texts and corresponding source required by those licenses are included inside the application bundle.
+Nexum Studio includes or derives portions of its contained support from the following projects. Applicable license texts and notices are included with the application. Corresponding open-source support material is included inside the macOS bundle and the Windows archive's `OpenSource` folder.
 
 - [MEDC17 Checksum Tool](https://github.com/ConnorHowell/medc17-checksum-tool), Connor Howell — MIT
 - [ME7Sum](https://github.com/nyetlabs/ME7Sum), 360trev and nyet — BSD-style license
@@ -88,6 +103,7 @@ Nexum Studio includes or derives portions of its contained support from the foll
 - Bleak and PyObjC — MIT
 - libusb — LGPL-2.1-or-later
 - Brotli — MIT
+- [Lucide](https://lucide.dev/), Lucide contributors — ISC; Windows application icons
 
 ## License
 

@@ -10,19 +10,19 @@
 
 ## Download
 
-Download **Nexum Studio** from the [latest release](https://github.com/tehfalcon-vw/Nexum-Studio/releases/latest).
+Download the currently available **macOS build** from the [latest release](https://github.com/tehfalcon-vw/Nexum-Studio/releases/latest). Windows downloads are temporarily withdrawn while single portable EXE packaging is validated.
 
 Submit Bugs/Issues [Here](https://github.com/tehfalcon-vw/Nexum-Studio/issues/new?template=bug_report.md).
 
 | Platform | Download | Requirements |
 | --- | --- | --- |
-| macOS | `Nexum-Studio-macOS-arm64-v1.1.0.zip` | Apple silicon, macOS 14 or newer |
-| Windows x64 | `Nexum-Studio-Windows-x64-v1.1.0.zip` | Windows 11 x64, Intel or AMD processor |
-| Windows ARM64 | `Nexum-Studio-Windows-arm64-v1.1.0.zip` | Windows 11 ARM64 |
+| macOS | `Nexum-Studio-macOS-arm64-v1.0.0.zip` | Apple silicon, macOS 14 or newer |
+| Windows x64 | Portable EXE — in preparation | Windows 11 x64, Intel or AMD processor |
+| Windows ARM64 | Portable EXE — in preparation | Windows 11 ARM64 |
 
 **macOS:** Extract the ZIP and open **Nexum Studio.app**. The application is ad-hoc signed for integrity but is not Apple-notarized. On first launch, macOS may require an explicit **Open** from Finder's shortcut menu, or **Open Anyway** in System Settings → Privacy & Security.
 
-**Windows:** Extract the entire ZIP to a writable folder, then run **NexumStudio.exe**. Keep the `Backend`, `Resources`, license files, and runtime files together; do not run from inside the ZIP or copy only the EXE. The .NET runtime is included. Install the interface manufacturer's Windows drivers separately before connecting a vehicle interface. The application does not include vendor driver installers or driver DLLs.
+**Windows:** The replacement builds will be single portable EXEs containing the application, runtime, resources, and helpers. Windows downloads remain unavailable until those builds pass validation. Interface drivers are installed separately.
 
 SHA-256 checksums are included with each release. Windows and macOS share the same editing, logging, diagnostics, utility, and programming workflows; interface drivers are platform-specific. Software and simulated tests do not establish physical vehicle or recovery qualification.
 

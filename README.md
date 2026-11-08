@@ -76,12 +76,15 @@ Nexum Studio includes or derives portions of its contained support from the foll
 - [ME7Sum](https://github.com/nyetlabs/ME7Sum), 360trev and nyet — BSD-style license
 - [ZedSuite](https://github.com/LeZed97/ZedSuite), LeZed97 and contributors — GPL-3.0
 - [VW_Flash](https://github.com/bri3d/VW_Flash), Brian Ledbetter and contributors — BSD-2-Clause
+- [LZSS (bundled with VW_Flash)](https://github.com/bri3d/VW_Flash/tree/master/lib/lzss), Michael Dipperstein — LGPL-2.1-or-later
 - [NefMoto ME7 ECU Flasher](https://github.com/NefMoto/NefMotoOpenSource), Nefarious Motorsports Inc and contributors — GPL-3.0
 - [BinToolz](https://github.com/Switchleg1/BinToolz), SwitchLEG — BTP file-format reference; no patches or source from the project are bundled
 - [PQ-flasher](https://github.com/I-CAN-hack/pq-flasher), Willem Melching — MIT
 - [openport-j2534](https://github.com/bisak/openport-j2534), Biser Atanasov and contributors — GPL-3.0-or-later
 - [esp32-isotp-ble-bridge](https://github.com/Switchleg1/esp32-isotp-ble-bridge), Switchleg1 — MIT
 - [sm2can](https://github.com/aldoguzman97/sm2can), Aldo Guzman — MIT
+- [python-can](https://github.com/hardbyte/python-can) 4.6.1, python-can contributors — LGPL-3.0-only
+- [PyUSB](https://github.com/pyusb/pyusb) 1.3.1, Wander Lairson Costa and PyUSB contributors — BSD-3-Clause
 - Bleak and PyObjC — MIT
 - libusb — LGPL-2.1-or-later
 - Brotli — MIT

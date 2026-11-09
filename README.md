@@ -28,6 +28,15 @@ Install **1.1.1** manually to enable automatic updates. On launch, Nexum Studio 
 
 SHA-256 checksums are included with each release. Windows and macOS share the same editing, logging, diagnostics, utility, and programming workflows; interface drivers are platform-specific. Software and simulated tests do not establish physical vehicle or recovery qualification.
 
+## Custom definitions
+
+Start with the [Nexum Studio XDF template](examples/Nexum-Studio-Custom-Definition.xdf). Save a copy with an `.xdf` extension, open the corresponding tune in Nexum Studio, and choose **Load Custom Definition…** or **File → Import definition** on Windows.
+
+- Put the entries in the order you want to browse them. Use `CATEGORY` in the header and `CATEGORYMEM` on each entry for your own group names.
+- Replace the example addresses with zero-based byte offsets in your exact BIN. The example offsets are placeholders. Use a scratch BIN of at least 772 bytes to open all three examples as written.
+- Declare the row and column counts, integer size (8, 16, or 32 bits), and byte order. Use flags `0` for unsigned big-endian, `1` for signed big-endian, `2` for unsigned little-endian, and `3` for signed little-endian.
+- Use contiguous data and linear scaling such as `X` or `X*0.5-10`. The table example shows optional stored X and Y breakpoints. A single value can use a 1 × 1 table.
+
 ## Functions
 
 - Open and edit BIN, ORI, and MSTRO ECU files

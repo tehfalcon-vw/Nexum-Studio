@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XDFFORMAT version="1.70">
+  <XDFHEADER>
+    <deftitle>Nexum Studio Custom Definition Template</deftitle>
+    <description>Example layout for a scratch BIN. Replace all addresses and settings for your exact software version.</description>
+    <author>Your name</author>
+    <BASEOFFSET offset="0" subtract="0" />
+    <CATEGORY index="0x0" name="Example group Z" />
+    <CATEGORY index="0x1" name="Example group A" />
+  </XDFHEADER>
+
+  <!-- 2 × 3 table. Z starts at file byte 256, six 16-bit unsigned little-endian values. -->
+  <XDFTABLE uniqueid="0x1" flags="0x0">
+    <title>Zeta example table</title>
+    <description>A table with stored column and row breakpoints.</description>
+    <CATEGORYMEM index="0" category="0" />
+    <XDFAXIS id="x">
+      <EMBEDDEDDATA mmedaddress="128" mmedelementsizebits="16" mmedtypeflags="2" />
+      <indexcount>3</indexcount>
+      <units>rpm</units>
+      <MATH equation="X"><VAR id="X" /></MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y">
+      <EMBEDDEDDATA mmedaddress="144" mmedelementsizebits="8" mmedtypeflags="0" />
+      <indexcount>2</indexcount>
+      <units>%</units>
+      <MATH equation="X"><VAR id="X" /></MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="256" mmedelementsizebits="16" mmedtypeflags="2" mmedrowcount="2" mmedcolcount="3" />
+      <units>example units</units>
+      <MATH equation="X*0.5-10"><VAR id="X" /></MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+
+  <!-- 1 × 1 table for a single value. The name and position are intentionally not alphabetical. -->
+  <XDFTABLE uniqueid="0x2" flags="0x0">
+    <title>Alpha example scalar</title>
+    <description>Single 8-bit unsigned value at file byte 512.</description>
+    <CATEGORYMEM index="0" category="1" />
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="512" mmedelementsizebits="8" mmedtypeflags="0" mmedrowcount="1" mmedcolcount="1" />
+      <MATH equation="X"><VAR id="X" /></MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+
+  <!-- A second entry in group Z shows that groups can recur in file order. -->
+  <XDFTABLE uniqueid="0x3" flags="0x0">
+    <title>Beta example curve</title>
+    <description>Four 8-bit signed values at file byte 768.</description>
+    <CATEGORYMEM index="0" category="0" />
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="768" mmedelementsizebits="8" mmedtypeflags="1" mmedrowcount="1" mmedcolcount="4" />
+      <MATH equation="X"><VAR id="X" /></MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+</XDFFORMAT>

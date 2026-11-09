@@ -24,7 +24,7 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Device Information*
- - Device: [e.g. Mac/iPad]
- - OS: [e.g. macOS 26/iOS 26]
+ - Device: [e.g. PC/Mac/iPad]
+ - OS: [e.g. macOS 26/iOS 26/Windows]
  - VCI used: [e.g. Scanmatik, OpenPort 2.0]
  - Nexum Studio Version: [e.g. v1.0.0]

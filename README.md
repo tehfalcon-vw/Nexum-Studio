@@ -16,13 +16,15 @@ Submit Bugs/Issues [Here](https://github.com/tehfalcon-vw/Nexum-Studio/issues/ne
 
 | Platform | Download | Requirements |
 | --- | --- | --- |
-| macOS | `Nexum-Studio-macOS-arm64-v1.1.0.zip` | Apple silicon, macOS 14 or newer |
-| Windows x64 | `Nexum-Studio-Windows-x64-v1.1.0.exe` | Windows 11 x64, Intel or AMD processor |
-| Windows ARM64 | `Nexum-Studio-Windows-arm64-v1.1.0.exe` | Windows 11 ARM64 |
+| macOS | `Nexum-Studio-macOS-arm64-v1.1.1.zip` | Apple silicon, macOS 14 or newer |
+| Windows x64 | `Nexum-Studio-Windows-x64-v1.1.1.exe` | Windows 11 x64, Intel or AMD processor |
+| Windows ARM64 | `Nexum-Studio-Windows-arm64-v1.1.1.exe` | Windows 11 ARM64 |
 
 **macOS:** Extract the ZIP and open **Nexum Studio.app**. The application is ad-hoc signed for integrity but is not Apple-notarized. On first launch, macOS may require an explicit **Open** from Finder's shortcut menu, or **Open Anyway** in System Settings → Privacy & Security.
 
 **Windows:** Download and run the portable EXE for your architecture. It includes the application, runtime, resources, and helpers. Interface drivers are installed separately.
+
+Install **1.1.1** manually to enable automatic updates. On launch, Nexum Studio checks the latest stable release and downloads verified updates in the background. A ready update installs when you quit normally. You can also use **Help → Check for Updates**.
 
 SHA-256 checksums are included with each release. Windows and macOS share the same editing, logging, diagnostics, utility, and programming workflows; interface drivers are platform-specific. Software and simulated tests do not establish physical vehicle or recovery qualification.
 
@@ -85,7 +87,7 @@ Nexum Studio can change safety-critical controller data. Incorrect tuning, flash
 
 ## Open-source material and credits
 
-Nexum Studio includes or derives portions of its contained support from the following projects. Applicable license texts and notices are included with the application. Corresponding open-source support material is included inside the macOS bundle and the Windows archive's `OpenSource` folder.
+Nexum Studio includes or derives portions of its contained support from the following projects. Applicable license texts and notices are included with the application. Corresponding open-source support material is included inside the macOS bundle and the Windows portable EXE's bundled `OpenSource` folder.
 
 - [MEDC17 Checksum Tool](https://github.com/ConnorHowell/medc17-checksum-tool), Connor Howell — MIT
 - [ME7Sum](https://github.com/nyetlabs/ME7Sum), 360trev and nyet — BSD-style license

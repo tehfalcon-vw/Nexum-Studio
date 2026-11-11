@@ -16,15 +16,15 @@ Submit Bugs/Issues [Here](https://github.com/tehfalcon-vw/Nexum-Studio/issues/ne
 
 | Platform | Download | Requirements |
 | --- | --- | --- |
-| macOS | `Nexum-Studio-macOS-arm64-v1.1.1.zip` | Apple silicon, macOS 14 or newer |
-| Windows x64 | `Nexum-Studio-Windows-x64-v1.1.1.exe` | Windows 11 x64, Intel or AMD processor |
-| Windows ARM64 | `Nexum-Studio-Windows-arm64-v1.1.1.exe` | Windows 11 ARM64 |
+| macOS | `Nexum-Studio-macOS-arm64-v1.2.0.zip` | Apple silicon, macOS 14 or newer |
+| Windows x64 | `Nexum-Studio-Windows-x64-v1.2.0.exe` | Windows 11 x64, Intel or AMD processor |
+| Windows ARM64 | `Nexum-Studio-Windows-arm64-v1.2.0.exe` | Windows 11 ARM64 |
 
 **macOS:** Extract the ZIP and open **Nexum Studio.app**. The application is ad-hoc signed for integrity but is not Apple-notarized. On first launch, macOS may require an explicit **Open** from Finder's shortcut menu, or **Open Anyway** in System Settings → Privacy & Security.
 
 **Windows:** Download and run the portable EXE for your architecture. It includes the application, runtime, resources, and helpers. Interface drivers are installed separately.
 
-Install **1.1.1** manually to enable automatic updates. On launch, Nexum Studio checks the latest stable release and downloads verified updates in the background. A ready update installs when you quit normally. You can also use **Help → Check for Updates**.
+Install **1.2.0** manually if your current version predates automatic updates. On launch, Nexum Studio checks the latest stable release and downloads verified updates in the background. A ready update installs when you quit normally. You can also use **Help → Check for Updates**.
 
 SHA-256 checksums are included with each release. Windows and macOS share the same editing, logging, diagnostics, utility, and programming workflows; interface drivers are platform-specific. Software and simulated tests do not establish physical vehicle or recovery qualification.
 
@@ -44,6 +44,7 @@ Start with the [Nexum Studio XDF template](examples/Nexum-Studio-Custom-Definiti
 - Scaled 1D/2D tables, synchronized secondary addresses, interactive 3D surfaces, compare, undo/redo, and change review
 - ECU-aware calibration wizards and patch workflows, including user-supplied Simos BTP patches
 - Gasoline and diesel aware logging with multi-parameter graphing, playback, per-cylinder knock where supported, and CSV export
+- **ECU Tune Simulation** for supported gasoline tunes, with configurable WOT pulls, original-versus-current traces, E85 fuel modeling, and simulated CSV export
 - Datalog-guided **Optimize** automatically optimizes the loaded tune for safety and smoothness.
 - Checksum inspection and repair for supported engine and transmission controller families
 - Guided controller identification, reading, and flashing with exact profile and interface capability checks
@@ -54,7 +55,6 @@ Start with the [Nexum Studio XDF template](examples/Nexum-Studio-Custom-Definiti
 
 ## Work in Progress
 
-- ECU Tune Simulation
 - Dataset Editor
 - MQB Light Configuration Utility
 - MQB Drive Profile Editor

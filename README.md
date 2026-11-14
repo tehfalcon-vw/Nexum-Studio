@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://repository-images.githubusercontent.com/1441675652/4b2af090-6ad5-4cd4-855a-325f3766d4ec" width="180" alt="Nexum Studio application icon">
+  <img src="assets/nexum-studio-icon.png" width="180" alt="Nexum Studio application icon">
 </p>
 
 <h1 align="center">Nexum Studio</h1>

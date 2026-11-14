@@ -16,11 +16,12 @@ Submit Bugs/Issues [Here](https://github.com/tehfalcon-vw/Nexum-Studio/issues/ne
 
 | Platform | Download | Requirements |
 | --- | --- | --- |
-| macOS | `Nexum-Studio-macOS-arm64-v1.2.0.zip` | Apple silicon, macOS 14 or newer |
-| Windows x64 | `Nexum-Studio-Windows-x64-v1.2.0.exe` | Windows 11 x64, Intel or AMD processor |
-| Windows ARM64 | `Nexum-Studio-Windows-arm64-v1.2.0.exe` | Windows 11 ARM64 |
+| macOS Apple silicon | [Nexum-Studio-macOS-arm64-v1.2.1.zip](https://github.com/tehfalcon-vw/Nexum-Studio/releases/download/v1.2.1/Nexum-Studio-macOS-arm64-v1.2.1.zip) | Apple silicon, macOS 14 or newer |
+| macOS Intel | [Nexum-Studio-macOS-x86_64-v1.2.1.zip](https://github.com/tehfalcon-vw/Nexum-Studio/releases/download/v1.2.1/Nexum-Studio-macOS-x86_64-v1.2.1.zip) | Intel Mac, macOS 14 or newer |
+| Windows x64 | [Nexum-Studio-Windows-x64-v1.2.1.exe](https://github.com/tehfalcon-vw/Nexum-Studio/releases/download/v1.2.1/Nexum-Studio-Windows-x64-v1.2.1.exe) | Windows 11 x64, Intel or AMD processor |
+| Windows ARM64 | [Nexum-Studio-Windows-arm64-v1.2.1.exe](https://github.com/tehfalcon-vw/Nexum-Studio/releases/download/v1.2.1/Nexum-Studio-Windows-arm64-v1.2.1.exe) | Windows 11 ARM64 |
 
-**macOS:** Extract the ZIP and open **Nexum Studio.app**. The application is ad-hoc signed for integrity but is not Apple-notarized. On first launch, macOS may require an explicit **Open** from Finder's shortcut menu, or **Open Anyway** in System Settings → Privacy & Security.
+**macOS:** Choose the ZIP for your Mac’s processor, extract it, and open **Nexum Studio.app**. The application is ad-hoc signed for integrity but is not Apple-notarized. On first launch, macOS may require an explicit **Open** from Finder's shortcut menu, or **Open Anyway** in System Settings → Privacy & Security.
 
 **Windows:** Download and run the portable EXE for your architecture. It includes the application, runtime, resources, and helpers. Interface drivers are installed separately.
 
@@ -84,7 +85,7 @@ Drivers are installed separately and are not included with Nexum Studio.
 | Tactrix OpenPort 2.0 | Diagnostics, logging, identification, and supported CAN, TP2.0, ISO-TP/UDS, and K-line flashing |
 | Scanmatik 2 Pro | Diagnostics, logging, identification, and supported CAN, TP2.0, and ISO-TP/UDS flashing; no K-line |
 | ESP32 / Macchina A0 CAN Bridge, USB or BLE | Diagnostics, logging, identification, guided routines, and supported ISO-TP/UDS flashing; no raw-CAN TP2.0 or K-line |
-| VNCI 6154A (macOS, experimental) | Supported 500 kbit request-level ISO-TP/UDS diagnostics, logging, routines, and flashing |
+| VNCI 6154A (macOS Intel and Apple silicon, experimental) | Supported 500 kbit request-level ISO-TP/UDS diagnostics, logging, routines, and flashing |
 | Exact supported FTDI cable | CAN diagnostics, logging, and supported programming through the cable's protocols; K-line identification/programming for supported controllers. Unrelated FTDI cables are not selected. |
 | Common BLE OBD adapters | Generic OBD diagnostics only |
 

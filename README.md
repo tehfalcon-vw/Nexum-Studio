@@ -25,7 +25,7 @@ Submit Bugs/Issues [Here](https://github.com/tehfalcon-vw/Nexum-Studio/issues/ne
 
 **Windows:** Download and run the portable EXE for your architecture. It includes the application, runtime, resources, and helpers. Interface drivers are installed separately.
 
-Install **1.2.0** manually if your current version predates automatic updates. On launch, Nexum Studio checks the latest stable release and downloads verified updates in the background. A ready update installs when you quit normally. You can also use **Help → Check for Updates**.
+Install **1.2.0+** manually if your current version predates automatic updates. On launch, Nexum Studio checks the latest stable release and downloads verified updates in the background. A ready update installs when you quit normally. You can also use **Help → Check for Updates**.
 
 SHA-256 checksums are included with each release. Windows and macOS share the same editing, logging, diagnostics, utility, and programming workflows; interface drivers are platform-specific. Software and simulated tests do not establish physical vehicle or recovery qualification.
 

@@ -16,16 +16,16 @@ Submit Bugs/Issues [Here](https://github.com/tehfalcon-vw/Nexum-Studio/issues/ne
 
 | Platform | Download | Requirements |
 | --- | --- | --- |
-| macOS Apple silicon | [Nexum-Studio-macOS-arm64-v1.2.1.zip](https://github.com/tehfalcon-vw/Nexum-Studio/releases/download/v1.2.1/Nexum-Studio-macOS-arm64-v1.2.1.zip) | Apple silicon, macOS 14 or newer |
-| macOS Intel | [Nexum-Studio-macOS-x86_64-v1.2.1.zip](https://github.com/tehfalcon-vw/Nexum-Studio/releases/download/v1.2.1/Nexum-Studio-macOS-x86_64-v1.2.1.zip) | Intel Mac, macOS 14 or newer |
-| Windows x64 | [Nexum-Studio-Windows-x64-v1.2.1.exe](https://github.com/tehfalcon-vw/Nexum-Studio/releases/download/v1.2.1/Nexum-Studio-Windows-x64-v1.2.1.exe) | Windows 11 x64, Intel or AMD processor |
-| Windows ARM64 | [Nexum-Studio-Windows-arm64-v1.2.1.exe](https://github.com/tehfalcon-vw/Nexum-Studio/releases/download/v1.2.1/Nexum-Studio-Windows-arm64-v1.2.1.exe) | Windows 11 ARM64 |
+| macOS Apple silicon | [Nexum-Studio-macOS-arm64-v1.3.0.zip](https://github.com/tehfalcon-vw/Nexum-Studio/releases/download/v1.3.0/Nexum-Studio-macOS-arm64-v1.3.0.zip) | Apple silicon, macOS 14 or newer |
+| macOS Intel | [Nexum-Studio-macOS-x86_64-v1.3.0.zip](https://github.com/tehfalcon-vw/Nexum-Studio/releases/download/v1.3.0/Nexum-Studio-macOS-x86_64-v1.3.0.zip) | Intel Mac, macOS 14 or newer |
+| Windows x64 | [Nexum-Studio-Windows-x64-v1.3.0.exe](https://github.com/tehfalcon-vw/Nexum-Studio/releases/download/v1.3.0/Nexum-Studio-Windows-x64-v1.3.0.exe) | Windows 11 x64, Intel or AMD processor |
+| Windows ARM64 | [Nexum-Studio-Windows-arm64-v1.3.0.exe](https://github.com/tehfalcon-vw/Nexum-Studio/releases/download/v1.3.0/Nexum-Studio-Windows-arm64-v1.3.0.exe) | Windows 11 ARM64 |
 
 **macOS:** Choose the ZIP for your Mac’s processor, extract it, and open **Nexum Studio.app**. The application is ad-hoc signed for integrity but is not Apple-notarized. On first launch, macOS may require an explicit **Open** from Finder's shortcut menu, or **Open Anyway** in System Settings → Privacy & Security.
 
 **Windows:** Download and run the portable EXE for your architecture. It includes the application, runtime, resources, and helpers. Interface drivers are installed separately.
 
-Install **1.2.0+** manually if your current version predates automatic updates. On launch, Nexum Studio checks the latest stable release and downloads verified updates in the background. A ready update installs when you quit normally. You can also use **Help → Check for Updates**.
+Install **1.2.0+** manually if your current version predates automatic updates. On launch, Nexum Studio checks the latest stable release and downloads verified updates in the background. When an update is ready, choose **Restart** to install it now or **Later** to continue working. An update deferred with **Later** installs when you quit normally. You can also use **Help → Check for Updates**.
 
 SHA-256 checksums are included with each release. Windows and macOS share the same editing, logging, diagnostics, utility, and programming workflows; interface drivers are platform-specific. Software and simulated tests do not establish physical vehicle or recovery qualification.
 

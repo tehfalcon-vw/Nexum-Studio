@@ -16,10 +16,10 @@ Submit Bugs/Issues [Here](https://github.com/tehfalcon-vw/Nexum-Studio/issues/ne
 
 | Platform | Download | Requirements |
 | --- | --- | --- |
-| macOS Apple silicon | [Nexum-Studio-macOS-arm64-v1.3.0.zip](https://github.com/tehfalcon-vw/Nexum-Studio/releases/download/v1.3.0/Nexum-Studio-macOS-arm64-v1.3.0.zip) | Apple silicon, macOS 14 or newer |
-| macOS Intel | [Nexum-Studio-macOS-x86_64-v1.3.0.zip](https://github.com/tehfalcon-vw/Nexum-Studio/releases/download/v1.3.0/Nexum-Studio-macOS-x86_64-v1.3.0.zip) | Intel Mac, macOS 14 or newer |
-| Windows x64 | [Nexum-Studio-Windows-x64-v1.3.0.exe](https://github.com/tehfalcon-vw/Nexum-Studio/releases/download/v1.3.0/Nexum-Studio-Windows-x64-v1.3.0.exe) | Windows 11 x64, Intel or AMD processor |
-| Windows ARM64 | [Nexum-Studio-Windows-arm64-v1.3.0.exe](https://github.com/tehfalcon-vw/Nexum-Studio/releases/download/v1.3.0/Nexum-Studio-Windows-arm64-v1.3.0.exe) | Windows 11 ARM64 |
+| macOS Apple silicon | [Nexum-Studio-macOS-arm64-v1.3.1.zip](https://github.com/tehfalcon-vw/Nexum-Studio/releases/download/v1.3.1/Nexum-Studio-macOS-arm64-v1.3.1.zip) | Apple silicon, macOS 14 or newer |
+| macOS Intel | [Nexum-Studio-macOS-x86_64-v1.3.1.zip](https://github.com/tehfalcon-vw/Nexum-Studio/releases/download/v1.3.1/Nexum-Studio-macOS-x86_64-v1.3.1.zip) | Intel Mac, macOS 14 or newer |
+| Windows x64 | [Nexum-Studio-Windows-x64-v1.3.1.exe](https://github.com/tehfalcon-vw/Nexum-Studio/releases/download/v1.3.1/Nexum-Studio-Windows-x64-v1.3.1.exe) | Windows 11 x64, Intel or AMD processor |
+| Windows ARM64 | [Nexum-Studio-Windows-arm64-v1.3.1.exe](https://github.com/tehfalcon-vw/Nexum-Studio/releases/download/v1.3.1/Nexum-Studio-Windows-arm64-v1.3.1.exe) | Windows 11 ARM64 |
 
 **macOS:** Choose the ZIP for your Mac’s processor, extract it, and open **Nexum Studio.app**. The application is ad-hoc signed for integrity but is not Apple-notarized. On first launch, macOS may require an explicit **Open** from Finder's shortcut menu, or **Open Anyway** in System Settings → Privacy & Security.
 

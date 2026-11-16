@@ -88,7 +88,7 @@ Drivers are installed separately and are not included with Nexum Studio.
 | Scanmatik 2 Pro | Diagnostics, logging, identification, and supported CAN, TP2.0, and ISO-TP/UDS flashing; no K-line |
 | ESP32 / Macchina A0 CAN Bridge, USB or BLE | Diagnostics, logging, identification, guided routines, and supported ISO-TP/UDS flashing; no raw-CAN TP2.0 or K-line |
 | VNCI 6154A | Supported 500 kbit request-level ISO-TP/UDS diagnostics, logging, routines, and flashing |
-| Exact supported FTDI cable | CAN diagnostics, logging, and supported programming through the cable's protocols; K-line identification/programming for supported controllers. Unrelated FTDI cables are not selected. |
+| FTDI cable | CAN diagnostics, logging, and supported programming through the cable's protocols; K-line identification/programming for supported controllers. |
 | Common BLE OBD adapters | Generic OBD diagnostics only |
 
 ## Safety

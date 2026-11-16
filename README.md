@@ -56,6 +56,7 @@ Start with the [Nexum Studio XDF template](examples/Nexum-Studio-Custom-Definiti
 
 ## Work in Progress
 
+- ECU Read/Dump
 - Dataset Editor
 - MQB Light Configuration Utility
 - MQB Drive Profile Editor
@@ -66,6 +67,7 @@ Start with the [Nexum Studio XDF template](examples/Nexum-Studio-Custom-Definiti
 - PQ EPS Patcher
 - PQ TRW450 Patcher
 - PQ BCM EEPROM Editor
+- VAG Dashboard EEPROM Editor
 - VAS5054A VCI Support
 
 ## VCI support
